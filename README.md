@@ -50,10 +50,13 @@ Forwarding Logic
 
 
 Commands for the Simulator:
-initialize: It initializes the simulator with the given instructions.
-It initializes PC content, cycles, register files and memory locations.
-It reads the given instructions for the simulator from the file.
+
+initialize: It initializes the simulator with the given instructions.It initializes PC content, cycles, register files and memory locations. It reads the given instructions for the simulator from the file.
+
 simulate <n>: It simulates the number of instructions for n cycles by setting the state of each stage in the pipeline.
+
 display : It displays the contents of all the stages. It displays the contents of register files and first 100 memory locations whose values have been changed.
+
 display <n> : It displays the content of each stage for the given cycle.
+
 Quit: It stops the simulator.
